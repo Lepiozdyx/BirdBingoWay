@@ -1,4 +1,5 @@
 import SwiftUI
+import SwiftData
 
 struct HomeView: View {
     @State var isPresentHowToPlay = false
@@ -58,6 +59,9 @@ struct HomeView: View {
                 SettingsView()
             }
         }
+        .modelContainer(for: [
+            SettingsModel.self
+        ])
     }
 }
 

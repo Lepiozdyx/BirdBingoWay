@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */; };
+		FA7F7C162F6865F1006E7E3C /* Crow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BEA2F6865F1006E7E3C /* Crow.mp3 */; };
+		FA7F7C172F6865F1006E7E3C /* Swallow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BFD2F6865F1006E7E3C /* Swallow.mp3 */; };
+		FA7F7C182F6865F1006E7E3C /* Robin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF92F6865F1006E7E3C /* Robin.mp3 */; };
+		FA7F7C192F6865F1006E7E3C /* Magpie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF32F6865F1006E7E3C /* Magpie.mp3 */; };
+		FA7F7C1A2F6865F1006E7E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7C112F6865F1006E7E3C /* Assets.xcassets */; };
+		FA7F7C1B2F6865F1006E7E3C /* Owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF42F6865F1006E7E3C /* Owl.mp3 */; };
+		FA7F7C1C2F6865F1006E7E3C /* Eagle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BEC2F6865F1006E7E3C /* Eagle.mp3 */; };
+		FA7F7C1D2F6865F1006E7E3C /* Finch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BEE2F6865F1006E7E3C /* Finch.mp3 */; };
+		FA7F7C1E2F6865F1006E7E3C /* Flamingo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BEF2F6865F1006E7E3C /* Flamingo.mp3 */; };
+		FA7F7C1F2F6865F1006E7E3C /* Penguin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF72F6865F1006E7E3C /* Penguin.mp3 */; };
+		FA7F7C202F6865F1006E7E3C /* Falcon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BED2F6865F1006E7E3C /* Falcon.mp3 */; };
+		FA7F7C212F6865F1006E7E3C /* Pigeon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF82F6865F1006E7E3C /* Pigeon.mp3 */; };
+		FA7F7C222F6865F1006E7E3C /* Woodpecker.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BFF2F6865F1006E7E3C /* Woodpecker.mp3 */; };
+		FA7F7C232F6865F1006E7E3C /* Hummingbird.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF22F6865F1006E7E3C /* Hummingbird.mp3 */; };
+		FA7F7C242F6865F1006E7E3C /* Stork.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BFC2F6865F1006E7E3C /* Stork.mp3 */; };
+		FA7F7C252F6865F1006E7E3C /* Peacock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF62F6865F1006E7E3C /* Peacock.mp3 */; };
+		FA7F7C262F6865F1006E7E3C /* Duck.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BEB2F6865F1006E7E3C /* Duck.mp3 */; };
+		FA7F7C272F6865F1006E7E3C /* Seagull.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BFA2F6865F1006E7E3C /* Seagull.mp3 */; };
+		FA7F7C282F6865F1006E7E3C /* Parrot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF52F6865F1006E7E3C /* Parrot.mp3 */; };
+		FA7F7C292F6865F1006E7E3C /* Canary.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BE82F6865F1006E7E3C /* Canary.mp3 */; };
+		FA7F7C2A2F6865F1006E7E3C /* Sparrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BFB2F6865F1006E7E3C /* Sparrow.mp3 */; };
+		FA7F7C2B2F6865F1006E7E3C /* Crane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BE92F6865F1006E7E3C /* Crane.mp3 */; };
+		FA7F7C2C2F6865F1006E7E3C /* Hawk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF02F6865F1006E7E3C /* Hawk.mp3 */; };
+		FA7F7C2D2F6865F1006E7E3C /* Heron.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BF12F6865F1006E7E3C /* Heron.mp3 */; };
+		FA7F7C2E2F6865F1006E7E3C /* Swan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA7F7BFE2F6865F1006E7E3C /* Swan.mp3 */; };
+		FA7F7C2F2F6865F1006E7E3C /* FindBySoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C042F6865F1006E7E3C /* FindBySoundView.swift */; };
+		FA7F7C302F6865F1006E7E3C /* HapticService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C012F6865F1006E7E3C /* HapticService.swift */; };
+		FA7F7C312F6865F1006E7E3C /* GameModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C082F6865F1006E7E3C /* GameModeView.swift */; };
+		FA7F7C322F6865F1006E7E3C /* FitExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C132F6865F1006E7E3C /* FitExt.swift */; };
+		FA7F7C332F6865F1006E7E3C /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C0A2F6865F1006E7E3C /* HowToPlayView.swift */; };
+		FA7F7C342F6865F1006E7E3C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C0C2F6865F1006E7E3C /* SettingsView.swift */; };
+		FA7F7C352F6865F1006E7E3C /* FindByPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C032F6865F1006E7E3C /* FindByPicView.swift */; };
+		FA7F7C362F6865F1006E7E3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C0E2F6865F1006E7E3C /* HomeView.swift */; };
+		FA7F7C382F6865F1006E7E3C /* WinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C062F6865F1006E7E3C /* WinView.swift */; };
+		FA7F7C392F6865F1006E7E3C /* SettingsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7BE62F6865F1006E7E3C /* SettingsModel.swift */; };
+		FA7F7C3A2F6865F1006E7E3C /* BgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C122F6865F1006E7E3C /* BgView.swift */; };
+		FA7F7C3B2F6865F1006E7E3C /* FindByText.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7F7C052F6865F1006E7E3C /* FindByText.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE71156C2E6F168000BFCB5A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE7115342E6F0AB000BFCB5A /* AppTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEF3187B2E72A659004E27D7 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		FA7F7BE62F6865F1006E7E3C /* SettingsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsModel.swift; sourceTree = "<group>"; };
+		FA7F7BE82F6865F1006E7E3C /* Canary.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Canary.mp3; sourceTree = "<group>"; };
+		FA7F7BE92F6865F1006E7E3C /* Crane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crane.mp3; sourceTree = "<group>"; };
+		FA7F7BEA2F6865F1006E7E3C /* Crow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crow.mp3; sourceTree = "<group>"; };
+		FA7F7BEB2F6865F1006E7E3C /* Duck.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Duck.mp3; sourceTree = "<group>"; };
+		FA7F7BEC2F6865F1006E7E3C /* Eagle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Eagle.mp3; sourceTree = "<group>"; };
+		FA7F7BED2F6865F1006E7E3C /* Falcon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Falcon.mp3; sourceTree = "<group>"; };
+		FA7F7BEE2F6865F1006E7E3C /* Finch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Finch.mp3; sourceTree = "<group>"; };
+		FA7F7BEF2F6865F1006E7E3C /* Flamingo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Flamingo.mp3; sourceTree = "<group>"; };
+		FA7F7BF02F6865F1006E7E3C /* Hawk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hawk.mp3; sourceTree = "<group>"; };
+		FA7F7BF12F6865F1006E7E3C /* Heron.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Heron.mp3; sourceTree = "<group>"; };
+		FA7F7BF22F6865F1006E7E3C /* Hummingbird.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Hummingbird.mp3; sourceTree = "<group>"; };
+		FA7F7BF32F6865F1006E7E3C /* Magpie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Magpie.mp3; sourceTree = "<group>"; };
+		FA7F7BF42F6865F1006E7E3C /* Owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Owl.mp3; sourceTree = "<group>"; };
+		FA7F7BF52F6865F1006E7E3C /* Parrot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Parrot.mp3; sourceTree = "<group>"; };
+		FA7F7BF62F6865F1006E7E3C /* Peacock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Peacock.mp3; sourceTree = "<group>"; };
+		FA7F7BF72F6865F1006E7E3C /* Penguin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Penguin.mp3; sourceTree = "<group>"; };
+		FA7F7BF82F6865F1006E7E3C /* Pigeon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Pigeon.mp3; sourceTree = "<group>"; };
+		FA7F7BF92F6865F1006E7E3C /* Robin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Robin.mp3; sourceTree = "<group>"; };
+		FA7F7BFA2F6865F1006E7E3C /* Seagull.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Seagull.mp3; sourceTree = "<group>"; };
+		FA7F7BFB2F6865F1006E7E3C /* Sparrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sparrow.mp3; sourceTree = "<group>"; };
+		FA7F7BFC2F6865F1006E7E3C /* Stork.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Stork.mp3; sourceTree = "<group>"; };
+		FA7F7BFD2F6865F1006E7E3C /* Swallow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Swallow.mp3; sourceTree = "<group>"; };
+		FA7F7BFE2F6865F1006E7E3C /* Swan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Swan.mp3; sourceTree = "<group>"; };
+		FA7F7BFF2F6865F1006E7E3C /* Woodpecker.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Woodpecker.mp3; sourceTree = "<group>"; };
+		FA7F7C012F6865F1006E7E3C /* HapticService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticService.swift; sourceTree = "<group>"; };
+		FA7F7C032F6865F1006E7E3C /* FindByPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindByPicView.swift; sourceTree = "<group>"; };
+		FA7F7C042F6865F1006E7E3C /* FindBySoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindBySoundView.swift; sourceTree = "<group>"; };
+		FA7F7C052F6865F1006E7E3C /* FindByText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindByText.swift; sourceTree = "<group>"; };
+		FA7F7C062F6865F1006E7E3C /* WinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinView.swift; sourceTree = "<group>"; };
+		FA7F7C082F6865F1006E7E3C /* GameModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModeView.swift; sourceTree = "<group>"; };
+		FA7F7C0A2F6865F1006E7E3C /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		FA7F7C0C2F6865F1006E7E3C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FA7F7C0E2F6865F1006E7E3C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FA7F7C112F6865F1006E7E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7F7C122F6865F1006E7E3C /* BgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BgView.swift; sourceTree = "<group>"; };
+		FA7F7C132F6865F1006E7E3C /* FitExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitExt.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CE7115362E6F0AB000BFCB5A /* AppTemplate */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppTemplate;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE7115312E6F0AB000BFCB5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE71152B2E6F0AB000BFCB5A = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C152F6865F1006E7E3C /* BirdBingoWay */,
+				CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */,
+				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
+				CE7115352E6F0AB000BFCB5A /* Products */,
+				CEF3187A2E72A659004E27D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE7115352E6F0AB000BFCB5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE7115342E6F0AB000BFCB5A /* AppTemplate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEF3187A2E72A659004E27D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEF3187B2E72A659004E27D7 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA7F7BE72F6865F1006E7E3C /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7BE62F6865F1006E7E3C /* SettingsModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		FA7F7C002F6865F1006E7E3C /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7BE82F6865F1006E7E3C /* Canary.mp3 */,
+				FA7F7BE92F6865F1006E7E3C /* Crane.mp3 */,
+				FA7F7BEA2F6865F1006E7E3C /* Crow.mp3 */,
+				FA7F7BEB2F6865F1006E7E3C /* Duck.mp3 */,
+				FA7F7BEC2F6865F1006E7E3C /* Eagle.mp3 */,
+				FA7F7BED2F6865F1006E7E3C /* Falcon.mp3 */,
+				FA7F7BEE2F6865F1006E7E3C /* Finch.mp3 */,
+				FA7F7BEF2F6865F1006E7E3C /* Flamingo.mp3 */,
+				FA7F7BF02F6865F1006E7E3C /* Hawk.mp3 */,
+				FA7F7BF12F6865F1006E7E3C /* Heron.mp3 */,
+				FA7F7BF22F6865F1006E7E3C /* Hummingbird.mp3 */,
+				FA7F7BF32F6865F1006E7E3C /* Magpie.mp3 */,
+				FA7F7BF42F6865F1006E7E3C /* Owl.mp3 */,
+				FA7F7BF52F6865F1006E7E3C /* Parrot.mp3 */,
+				FA7F7BF62F6865F1006E7E3C /* Peacock.mp3 */,
+				FA7F7BF72F6865F1006E7E3C /* Penguin.mp3 */,
+				FA7F7BF82F6865F1006E7E3C /* Pigeon.mp3 */,
+				FA7F7BF92F6865F1006E7E3C /* Robin.mp3 */,
+				FA7F7BFA2F6865F1006E7E3C /* Seagull.mp3 */,
+				FA7F7BFB2F6865F1006E7E3C /* Sparrow.mp3 */,
+				FA7F7BFC2F6865F1006E7E3C /* Stork.mp3 */,
+				FA7F7BFD2F6865F1006E7E3C /* Swallow.mp3 */,
+				FA7F7BFE2F6865F1006E7E3C /* Swan.mp3 */,
+				FA7F7BFF2F6865F1006E7E3C /* Woodpecker.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		FA7F7C022F6865F1006E7E3C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C002F6865F1006E7E3C /* Sound */,
+				FA7F7C012F6865F1006E7E3C /* HapticService.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FA7F7C072F6865F1006E7E3C /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C032F6865F1006E7E3C /* FindByPicView.swift */,
+				FA7F7C042F6865F1006E7E3C /* FindBySoundView.swift */,
+				FA7F7C052F6865F1006E7E3C /* FindByText.swift */,
+				FA7F7C062F6865F1006E7E3C /* WinView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		FA7F7C092F6865F1006E7E3C /* GameMode */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C082F6865F1006E7E3C /* GameModeView.swift */,
+			);
+			path = GameMode;
+			sourceTree = "<group>";
+		};
+		FA7F7C0B2F6865F1006E7E3C /* HowToPlay */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C0A2F6865F1006E7E3C /* HowToPlayView.swift */,
+			);
+			path = HowToPlay;
+			sourceTree = "<group>";
+		};
+		FA7F7C0D2F6865F1006E7E3C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C0C2F6865F1006E7E3C /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		FA7F7C0F2F6865F1006E7E3C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C0B2F6865F1006E7E3C /* HowToPlay */,
+				FA7F7C0D2F6865F1006E7E3C /* Settings */,
+				FA7F7C0E2F6865F1006E7E3C /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA7F7C102F6865F1006E7E3C /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C072F6865F1006E7E3C /* Game */,
+				FA7F7C092F6865F1006E7E3C /* GameMode */,
+				FA7F7C0F2F6865F1006E7E3C /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		FA7F7C142F6865F1006E7E3C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7C112F6865F1006E7E3C /* Assets.xcassets */,
+				FA7F7C122F6865F1006E7E3C /* BgView.swift */,
+				FA7F7C132F6865F1006E7E3C /* FitExt.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FA7F7C152F6865F1006E7E3C /* BirdBingoWay */ = {
+			isa = PBXGroup;
+			children = (
+				FA7F7BE72F6865F1006E7E3C /* DataModels */,
+				FA7F7C022F6865F1006E7E3C /* Domain */,
+				FA7F7C102F6865F1006E7E3C /* Modules */,
+				FA7F7C142F6865F1006E7E3C /* Resources */,
+			);
+			path = BirdBingoWay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE7115332E6F0AB000BFCB5A /* AppTemplate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE71154B2E6F0AB400BFCB5A /* Build configuration list for PBXNativeTarget "AppTemplate" */;
+			buildPhases = (
+				CE7115302E6F0AB000BFCB5A /* Sources */,
+				CE7115312E6F0AB000BFCB5A /* Frameworks */,
+				CE7115322E6F0AB000BFCB5A /* Resources */,
+				CE71156C2E6F168000BFCB5A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CE7115362E6F0AB000BFCB5A /* AppTemplate */,
+			);
+			name = AppTemplate;
+			packageProductDependencies = (
+			);
+			productName = AppTemplate;
+			productReference = CE7115342E6F0AB000BFCB5A /* AppTemplate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE71152C2E6F0AB000BFCB5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					CE7115332E6F0AB000BFCB5A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = CE71152F2E6F0AB000BFCB5A /* Build configuration list for PBXProject "AppTemplate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE71152B2E6F0AB000BFCB5A;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CE7115352E6F0AB000BFCB5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE7115332E6F0AB000BFCB5A /* AppTemplate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE7115322E6F0AB000BFCB5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE7115A62E6F181600BFCB5A /* LaunchScreen.storyboard in Resources */,
+				FA7F7C162F6865F1006E7E3C /* Crow.mp3 in Resources */,
+				FA7F7C172F6865F1006E7E3C /* Swallow.mp3 in Resources */,
+				FA7F7C182F6865F1006E7E3C /* Robin.mp3 in Resources */,
+				FA7F7C192F6865F1006E7E3C /* Magpie.mp3 in Resources */,
+				FA7F7C1A2F6865F1006E7E3C /* Assets.xcassets in Resources */,
+				FA7F7C1B2F6865F1006E7E3C /* Owl.mp3 in Resources */,
+				FA7F7C1C2F6865F1006E7E3C /* Eagle.mp3 in Resources */,
+				FA7F7C1D2F6865F1006E7E3C /* Finch.mp3 in Resources */,
+				FA7F7C1E2F6865F1006E7E3C /* Flamingo.mp3 in Resources */,
+				FA7F7C1F2F6865F1006E7E3C /* Penguin.mp3 in Resources */,
+				FA7F7C202F6865F1006E7E3C /* Falcon.mp3 in Resources */,
+				FA7F7C212F6865F1006E7E3C /* Pigeon.mp3 in Resources */,
+				FA7F7C222F6865F1006E7E3C /* Woodpecker.mp3 in Resources */,
+				FA7F7C232F6865F1006E7E3C /* Hummingbird.mp3 in Resources */,
+				FA7F7C242F6865F1006E7E3C /* Stork.mp3 in Resources */,
+				FA7F7C252F6865F1006E7E3C /* Peacock.mp3 in Resources */,
+				FA7F7C262F6865F1006E7E3C /* Duck.mp3 in Resources */,
+				FA7F7C272F6865F1006E7E3C /* Seagull.mp3 in Resources */,
+				FA7F7C282F6865F1006E7E3C /* Parrot.mp3 in Resources */,
+				FA7F7C292F6865F1006E7E3C /* Canary.mp3 in Resources */,
+				FA7F7C2A2F6865F1006E7E3C /* Sparrow.mp3 in Resources */,
+				FA7F7C2B2F6865F1006E7E3C /* Crane.mp3 in Resources */,
+				FA7F7C2C2F6865F1006E7E3C /* Hawk.mp3 in Resources */,
+				FA7F7C2D2F6865F1006E7E3C /* Heron.mp3 in Resources */,
+				FA7F7C2E2F6865F1006E7E3C /* Swan.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE7115302E6F0AB000BFCB5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7F7C2F2F6865F1006E7E3C /* FindBySoundView.swift in Sources */,
+				FA7F7C302F6865F1006E7E3C /* HapticService.swift in Sources */,
+				FA7F7C312F6865F1006E7E3C /* GameModeView.swift in Sources */,
+				FA7F7C322F6865F1006E7E3C /* FitExt.swift in Sources */,
+				FA7F7C332F6865F1006E7E3C /* HowToPlayView.swift in Sources */,
+				FA7F7C342F6865F1006E7E3C /* SettingsView.swift in Sources */,
+				FA7F7C352F6865F1006E7E3C /* FindByPicView.swift in Sources */,
+				FA7F7C362F6865F1006E7E3C /* HomeView.swift in Sources */,
+				FA7F7C382F6865F1006E7E3C /* WinView.swift in Sources */,
+				FA7F7C392F6865F1006E7E3C /* SettingsModel.swift in Sources */,
+				FA7F7C3A2F6865F1006E7E3C /* BgView.swift in Sources */,
+				FA7F7C3B2F6865F1006E7E3C /* FindByText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE7115A52E6F181600BFCB5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE7115A42E6F181600BFCB5A /* LaunchScreen.storyboard */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE7115492E6F0AB400BFCB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = /Users/user/Documents/Sources/AppTemplate/Entitlements.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE71154A2E6F0AB400BFCB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = /Users/user/Documents/Sources/AppTemplate/Entitlements.entitlements;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE71154C2E6F0AB400BFCB5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZCUKDMG3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bird Bingo Way";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingoway.bird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CE71154D2E6F0AB400BFCB5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Entitlements.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TZCUKDMG3L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Bird Bingo Way";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bingoway.bird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE71152F2E6F0AB000BFCB5A /* Build configuration list for PBXProject "AppTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE7115492E6F0AB400BFCB5A /* Debug */,
+				CE71154A2E6F0AB400BFCB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE71154B2E6F0AB400BFCB5A /* Build configuration list for PBXNativeTarget "AppTemplate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE71154C2E6F0AB400BFCB5A /* Debug */,
+				CE71154D2E6F0AB400BFCB5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE71152C2E6F0AB000BFCB5A /* Project object */;
+}
