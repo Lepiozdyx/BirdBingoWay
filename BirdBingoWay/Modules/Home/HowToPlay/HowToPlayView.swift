@@ -19,8 +19,20 @@ struct HowToPlayView: View {
                 .padding(.horizontal)
                 
                 ScrollView {
-                    Image(.howToPlayView)
-                        .resizable().scaledToFit().padding()
+                    VStack(spacing: 10) {
+                        Image(.howToPlay)
+                            .resizable().scaledToFit().frame(width: 200)
+                        
+                        Image(.howToPlay1)
+                            .resizable().scaledToFit()
+                        
+                        Image(.howToPlay2)
+                            .resizable().scaledToFit()
+                        
+                        Image(.howToPlay3)
+                            .resizable().scaledToFit()
+                    }
+                    .padding()
                     
                     Spacer(minLength: 50.fitH)
                 }
